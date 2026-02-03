@@ -58,7 +58,7 @@ namespace PineWealth
         //export to Excel
         private void btnExportExcelClick(object sender, RoutedEventArgs e)
         {
-            // Check if there's C# code to export
+            //check if there's C# code to export
             if (string.IsNullOrWhiteSpace(txtCSharp.Text))
             {
                 MessageBox.Show("Please translate the Pine Script first before exporting to Excel.", 
@@ -66,7 +66,7 @@ namespace PineWealth
                 return;
             }
 
-            // Show save file dialog
+            //show save file dialog
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
                 Filter = "Excel Files (*.xlsx)|*.xlsx",
