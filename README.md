@@ -130,8 +130,19 @@ PineWealth uses a custom line-by-line parser with lightweight tokenization. It r
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+This project requires [WealthLab 8](https://www.wealth-lab.com/) to be installed. Before building, copy the following DLLs from your WealthLab 8 installation directory (typically `C:\Program Files\Quantacula, LLC\WealthLab 8\`) into the `libs` folder:
+
+- `WealthLab.Core.dll`
+- `WealthLab.AdvancedSmoothers.dll`
+- `WealthLab.IchimokuCloud.dll`
+
+### Building
+
 ```bash
 git clone https://github.com/yourname/PineWealth.git
 cd PineWealth
+dotnet build
 ```
 Or, download this repo in Visual Studio.
