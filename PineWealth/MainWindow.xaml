@@ -11,6 +11,7 @@
         <!--toolbar-->
         <WrapPanel Orientation="Horizontal" DockPanel.Dock="Top">
             <Button Margin="4" Padding="4,2" Content="Translate" Click="btnTranslateClick"/>
+            <Button Margin="4" Padding="4,2" Content="Export to Excel" Click="btnExportExcelClick"/>
         </WrapPanel>
 
         <!--status pane-->
